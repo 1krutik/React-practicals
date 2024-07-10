@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+    height: 100px; /* Adjust the height as needed */
+    width: 100%;
+    position: relative; /* Change to relative */
+}
+
+.Head {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(164, 181, 182);
+    justify-content: space-between; /* Use space-between for better responsiveness */
+    align-items: center; /* Vertically center items */
+}
+
+.Head ul {
+    list-style: none;
+    display: flex;
+    margin-top: 12px;
+}
+
+.Head ul li{
+    text-align: center;
+    font-size: 13px;
+    margin-left: 5px;
+    
+ /* Add some spacing between list items */
+}
+
+.english {
+    display: none; /* Hide initially */
+}
+
+@media only screen and (min-width: 768px) {
+    /* Adjust styles for medium-sized screens */
+    .english {
+        display: block; /* Show the English button */
+        margin-left: auto; /* Move it to the right */
+    }
+}
+.fa-regular{
+    color: brown;
+    margin: 5px;
+}
+.fa-solid{
+    color: brown;
+       margin: 5px;
+}
+
+.logo-Header{
+  position: absolute;
+    height: 170px;
+    width: 100%;
+    display: flex;
+
+    background-color: aquamarine;
+}
+.logo-Header img{
+    position: relative;
+    margin-top: 25px;
+        
+}
+.search-btn{
+    margin-top: 30px;
+    position: relative;
+
+}
+.srch{
+    padding: 5px;
+    width: 300px;
+    
+    margin-left: 200px;
+}
+.btn{
+    margin-bottom: 5px;
+    background-color: bisque 
+    ;
+}
